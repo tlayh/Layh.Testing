@@ -1,0 +1,19 @@
+<f:layout name="Default" />
+
+<f:section name="Title">Index view of Standard controller</f:section>
+
+<f:section name="Content">
+	<h1>Somethings</h1>
+	<ul>
+
+		<f:for each="{somethings}" as="some">
+			<li>{some.name}</li>
+		</f:for>
+
+		<f:form action="add" controller="Standard" name="something" object="{something}">
+			<f:form.textfield property="name"/>
+			<f:form.submit value="save"/>
+		</f:form>
+
+	</ul>
+</f:section>

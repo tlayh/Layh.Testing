@@ -1,0 +1,5 @@
+#
+# SomethingRepository
+#
+Layh\Testing\Domain\Repository\SomethingRepository:
+  className: 'Layh\Testing\Domain\Repository\InMemory\SomethingRepository'
